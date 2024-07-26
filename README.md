@@ -1,4 +1,5 @@
 # PASSWORD SCORER
+> A simple password strength checker
 
 ### Build
 

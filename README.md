@@ -10,6 +10,7 @@
   - [Parameters](#parameters)
   - [Return](#return)
 - [Supported Languages](#supported-languages)
+  - [Using a Different Language (Spanish)](#example-using-a-different-language-spanish)
 - [Examples of Passwords with Different Scores](#examples-of-passwords-with-different-scores)
   - [Score: 0 (Very Weak)](#score-0-very-weak)
   - [Score: 20 (Weak)](#score-20-weak)
@@ -71,6 +72,21 @@ The function returns an object with the following properties:
 | Portuguese         | pt     |
 | French             | fr     |
 
+
+### Example: Using a Different Language (Spanish)
+
+```javascript
+import { passwordScorer } from 'password-scorer';
+
+const result = passwordScorer('TuContraseña123!', 'es');
+console.log(result);
+// Output:
+// {
+//   score: 100,
+//   feedback: [],
+//   description: 'perfecta'
+// }
+```
 
 ## Examples of Passwords with Different Scores
 Score: 0 (Very Weak)

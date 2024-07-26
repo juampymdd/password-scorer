@@ -1,11 +1,15 @@
 {
   "name": "password-scorer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple password strength checker",
   "keywords": ["password", "security", "strength", "typescript", "node", "browser", "scorer", "score", "password-scorer", "score-password"],
   "license": "MIT",
   "author": "<Juan Pablo Maddoni>(https://github.com/juampymdd)",
-
+  "homepage": "https://github.com/juampymdd/password-scorer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juampymdd/password-scorer"
+  },
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
   "scripts": {

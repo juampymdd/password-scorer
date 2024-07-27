@@ -3,7 +3,7 @@
 `password-scorer` is a tool for evaluating the strength of passwords. It provides a score based on various security criteria and offers feedback and descriptions in multiple languages.
 
 
-## Table of Contents
+## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Function passwordScorer](#function-passwordscorer)

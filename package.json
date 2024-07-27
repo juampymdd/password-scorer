@@ -1,6 +1,6 @@
 {
   "name": "password-scorer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple password strength checker",
   "keywords": ["password", "security", "strength", "typescript", "node", "browser", "scorer", "score", "password-scorer", "score-password"],
   "license": "MIT",
@@ -10,12 +10,10 @@
     "type": "git",
     "url": "https://github.com/juampymdd/password-scorer"
   },
-  "main": "dist-node/index.js",
-  "browser": "dist-browser/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
-    "build-node": "tsc src/index.ts --outDir dist-node",
-    "build": "npm run build-browser && npm run build-node"
+    "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^5.5.4"

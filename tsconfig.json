@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "declaration": true,          // Genera archivos de definición (.d.ts)
+      "declarationMap": true,       // Opcional, genera mapas de definición
+      "outDir": "./dist",       // Directorio de salida para archivos compilados
+      "rootDir": "./src",           // Directorio raíz de tus archivos fuente
+      "strict": true,               // Habilita todas las verificaciones estrictas
+      "module": "commonjs",         // Configura el módulo para Node.js
+      "target": "es6",              // Configura el target ECMAScript
+      "esModuleInterop": true,      // Habilita interoperabilidad con módulos ES
+      "skipLibCheck": true,         // Omite la verificación de archivos de definición
+      "forceConsistentCasingInFileNames": true // Asegura que los nombres de archivo sean consistentes
+    },
+    "include": ["src/**/*"],        // Incluye archivos de la carpeta src
+    "exclude": ["node_modules", "dist-node"] // Excluye node_modules y dist-node de la compilación
+  }

@@ -1,6 +1,6 @@
 {
   "name": "password-scorer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple password strength checker",
   "keywords": ["password", "security", "strength", "typescript", "node", "browser", "scorer", "score", "password-scorer", "score-password"],
   "license": "MIT",

@@ -16,6 +16,7 @@
   - [Score: 20 (Weak)](#score-20-weak)
   - [Score: 40 (Good)](#score-40-good)
   - [Score: 60 (Very Good)](#score-60-very-good)
+  - [Score: 80 (Excellent)](#score-80-excellent)
   - [Score: 100 (Perfect)](#score-100-perfect)
 - [Contributions](#contributions)
 - [License](#license)
@@ -24,7 +25,7 @@
 You can install the package using npm:
 
 ```sh
-npm install password-scorer
+npm i password-scorer
 ```
 
 ## Usage
@@ -129,8 +130,20 @@ console.log(result);
 // Output:
 // {
 //   score: 60,
-//   feedback: ["Must be more than 8 characters.", "Must contain at least one uppercase letter.", "Must contain at least one symbol (e.g., !, @, #, $, %, ^, &, *)."],
+//   feedback: ["Must contain at least one uppercase letter.", "Must contain at least one symbol (e.g., !, @, #, $, %, ^, &, *)."],
 //   description: 'very good'
+// }
+```
+
+Score: 80 (Excellent)
+```javascript
+const result = passwordScorer('Abcde123');
+console.log(result);
+// Output:
+// {
+//   score: 60,
+//   feedback: ["Must contain at least one symbol (e.g., !, @, #, $, %, ^, &, *)."],
+//   description: 'Excellent'
 // }
 ```
 Score: 100 (Perfect)

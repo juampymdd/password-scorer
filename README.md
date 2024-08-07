@@ -141,7 +141,7 @@ const result = passwordScorer('Abcde123');
 console.log(result);
 // Output:
 // {
-//   score: 60,
+//   score: 80,
 //   feedback: ["Must contain at least one symbol (e.g., !, @, #, $, %, ^, &, *)."],
 //   description: 'Excellent'
 // }
